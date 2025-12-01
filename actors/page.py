@@ -23,7 +23,7 @@ def show_actors():
 
     AgGrid(
         data=pd.DataFrame(actors),
-        key="genres_grid",
+        key="actors_grid",
     )
 
     st.title(body="Cadastrar novo(a) Ator/Atriz")
